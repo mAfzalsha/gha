@@ -1,5 +1,4 @@
 name: Multi Event yml
-
 on:
   push:
     branches:
