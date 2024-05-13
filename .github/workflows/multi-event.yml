@@ -12,10 +12,10 @@ on:
 jobs:
   hello_world:
     runs-on: ubuntu-latest
-  steps:
-    - name: "Echo Basic Information"
-      run:
-        echo "REF: $GITHUB_REF"
-        echo "Job ID: $GITHUN_JOB"
-        echo "Action: $GITHUB_ACTION"
-        echo "Actor: $GITHUB_ACTOR"
+    steps:
+      - name: "Echo Basic Information"
+        run:
+          echo "REF: $GITHUB_REF"
+          echo "Job ID: $GITHUN_JOB"
+          echo "Action: $GITHUB_ACTION"
+          echo "Actor: $GITHUB_ACTOR"
